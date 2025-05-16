@@ -42,7 +42,7 @@ function fetchAndDisplayCharacters() {
     const container = document.getElementById('characters-container')
 
 
-    for (let index = 0; index < 827; index++) {
+    for (let index = 0; index < 400; index++) {
 
     
     fetch(`https://rickandmortyapi.com/api/character/${index}`)
